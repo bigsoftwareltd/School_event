@@ -1,0 +1,99 @@
+/*footer section start here*/
+footer{
+    display: block;
+}
+.footer-section{
+    background: #1F2732;
+    color: #ffffff;
+    padding: 50px 0 0;
+}
+
+.footer-section h4{
+    font-family: 'bree-serif';
+    font-size: 20px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footer-section .about-us p{
+    font-size: 13px;
+}
+.footer-section h4::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: #ffffff;
+    bottom: 0;
+}
+
+.footer-section ul li a{
+    font-size: 13px;
+    color: #ffffff;
+}
+.footer-section .social-icons li{
+    display: inline-block;
+}
+.fb{
+    background: #4867AA;
+}
+
+.twitter{
+    background-color: #1792da;
+}
+
+.linkedin{
+    background-color: #ab1b7f;
+}
+
+
+.youtu{
+    background-color: #e63030;
+}
+
+
+
+.footer-section .social-icons li a{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.copyright{
+    background: #101419;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.copyright a {
+    color: #FFA500;
+}
+
+.btn-danger{
+    color: #fff !important;
+}
+.ftco-section{
+    padding: 7em 0;
+    position: relative;
+}
+
+.contactinfo {
+    list-style-type: none;
+    /*margin: 0;*/
+    margin-left: -33px;
+    text-align: left;
+}
+.contactinfo li{
+    list-style: none;
+}
+.footer-section p{
+    color: #fff!important;
+}
+/*footer section end here*/

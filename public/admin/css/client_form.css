@@ -1,0 +1,37 @@
+label.error{
+    color: red;
+    font-size: 14px;
+    display: block;
+}
+.card-info:not(.card-outline)>.card-header {
+    background-color: #15305b;
+}
+.card-title{
+    margin-bottom: 0;
+    color: #fff;
+}
+.form-label{
+    margin-left: 0;
+    float: right;
+    padding-right: 10px;
+    width: 30%;
+    text-align: right;
+}
+.form-control{
+    padding-left: 10px;
+    height: 30px;
+    font-size: 14px;
+    background-color: white;
+    width: 70%;
+}
+.form-group{
+    display: flex;
+}
+.btn-info {
+    color: #fff;
+    background-color: #15305b;
+    border-color: #15305b;
+}
+.card-body{
+    padding: 1.25rem 1.25rem 0;
+}
